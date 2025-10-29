@@ -1,1 +1,1 @@
-[Getting Started](https://github.com/FLPenorton/learning-excel/blob/main/getting-started)
+[Getting Started](https://github.com/FLPenorton/learning-excel/blob/main/getting-started.md)
