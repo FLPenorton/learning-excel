@@ -1,177 +1,214 @@
 
 # Table of Contents
 
-1.  [Getting Started](#org0e56f14)
-    1.  [Ribbon Menu and Quick Access Toolbar](#org18f59be)
-        1.  [Home](#org831afbc)
-        2.  [Insert - Add additional objects](#org481e7b8)
-        3.  [Page Layout](#org188cf24)
-        4.  [Formulas](#org722158a)
-        5.  [Data](#orgd3842d8)
-        6.  [Review](#org3d7b4cb)
-        7.  [Help](#org2b6695c)
-    2.  [Shortcut menus and mini toolbar](#orgf20c841)
-        1.  [Cells and Texts in Cells](#org08ed975)
-        2.  [Workbook and Worksheets](#org7f27ea3)
-    3.  [Getting Help](#org8aa4947)
-    4.  [Accessibility](#org67503fb)
-2.  [Data Entry](#orgeee5581)
-    1.  [Entry and Autofill](#org2b8f5fd)
-    2.  [Dates and Times](#org77945ec)
-    3.  [Undo and Redo](#org89caed9)
-    4.  [Save or Save As](#org18e8935)
-3.  [Formulas and Functions](#org745d1fa)
-    1.  [Simple Formulas](#org578fb7d)
-    2.  [Copying formulas](#orgcb57a9c)
-    3.  [Modifying formulas](#org56c7386)
-    4.  [Using SUM, AVERAGE, COUNT, COUNTA](#org0967df0)
-    5.  [XLOOKUP, and other lookup functions](#org195f465)
-4.  [Formatting](#orge18e5fc)
-    1.  [Font styles, borders, and background colors](#orgf87f480)
-    2.  [Formatting numbers](#org9a7264f)
-    3.  [Worksheets](#org7149f13)
-5.  [Preparing to print](#org7097dc7)
-    1.  [Page Layout](#org401a4df)
-    2.  [Print Setup and Page Break Preview](#org0114021)
-6.  [Charts](#org500b16c)
-    1.  [Creating](#orgdd104c6)
-    2.  [Chart Types](#org082d8bd)
-7.  [Worksheet Views](#orgd4875d5)
-    1.  [Freezing and Unfreezing Panes](#orga05daa1)
-    2.  [Split Screens](#orgffea8ca)
-    3.  [Using Worksheets and Workbooks](#orgc0530fe)
-        1.  [Insert, Delete, and Rename](#orga749989)
-        2.  [Move, Copy, and Group](#org1523267)
-        3.  [Open, Close, and Save](#org65f4bc6)
-8.  [Data Management](#org230e6db)
-    1.  [Sort](#org4bbd684)
-    2.  [Filter](#orgca8ff1e)
-    3.  [Make a Pivot Table](#org3bdd367)
-9.  [Security and Sharing](#orge941d3b)
-    1.  [Protect worksheets and workbooks](#org7864bd5)
-    2.  [Share and Track changes](#orgb17f91b)
-10. [Common Actions Across Applications and Windows OS](#org31392c3)
-11. [Modifiers for Movement and Selection](#org53c35d7)
+1.  [Getting Started](#org19eb0d1)
+    1.  [Ribbon Menu and Quick Access Toolbar](#orgde6fbdb)
+        1.  [Home](#orgeff153c)
+        2.  [Insert - Add additional objects](#org2742145)
+        3.  [Page Layout](#orgd5f7746)
+        4.  [Formulas](#org828c77c)
+        5.  [Data](#org9ac4cae)
+        6.  [Review](#org2ef9602)
+        7.  [Help](#org0a1e1c0)
+    2.  [Shortcut menus and mini toolbar](#orgbcd2883)
+        1.  [Cells and Texts in Cells](#org8b4c96e)
+        2.  [Workbook and Worksheets](#org9f5df8a)
+    3.  [Getting Help](#org67de080)
+    4.  [Accessibility](#org10c35e2)
+2.  [Data Entry](#org9d62c50)
+    1.  [Entry and Autofill](#org80d1983)
+        1.  [To Wrap Text or not to Wrap Text](#org3e56568)
+    2.  [Dates and Times](#org42e428a)
+    3.  [Undo and Redo](#org988088d)
+    4.  [Save or Save As](#orgc03c7b4)
+3.  [Formulas and Functions](#org7e94bcb)
+    1.  [Simple Formulas](#org9469ab5)
+    2.  [Copying formulas](#org8f25c31)
+    3.  [Modifying formulas](#orgad5152b)
+    4.  [Using SUM, AVERAGE, COUNT, COUNTA](#orgaa035b2)
+    5.  [XLOOKUP, and other lookup functions](#org1f6c0a1)
+4.  [Formatting](#org4951c2b)
+    1.  [Font styles, borders, and background colors](#org670d8a6)
+    2.  [Formatting numbers](#org2328a2e)
+    3.  [Worksheets](#org6e28bb4)
+5.  [Preparing to print](#orgeaec262)
+    1.  [Page Layout](#orgc240b8c)
+    2.  [Print Setup and Page Break Preview](#orge38691b)
+6.  [Charts](#orgc469762)
+    1.  [Creating](#org8bf8ddd)
+    2.  [Chart Types](#org9718d32)
+7.  [Worksheet Views](#org7ebb534)
+    1.  [Freezing and Unfreezing Panes](#orgf9d106b)
+    2.  [Split Screens](#orge5d7758)
+    3.  [Using Worksheets and Workbooks](#orga054e41)
+        1.  [Insert, Delete, and Rename](#org188db8b)
+        2.  [Move, Copy, and Group](#orgdb8c223)
+        3.  [Open, Close, and Save](#org428c329)
+8.  [Data Management](#orga5b3133)
+    1.  [Sort](#orgbde2286)
+    2.  [Filter](#org0d5bfe6)
+    3.  [Make a Pivot Table](#org8477cc5)
+9.  [Security and Sharing](#org596b5d9)
+    1.  [Protect worksheets and workbooks](#org47f39f0)
+    2.  [Share and Track changes](#org3a55eb4)
+10. [Common Actions Across Applications and Windows OS](#org7260e8e)
+11. [Modifiers for Movement and Selection](#org88da663)
 
 
 
-<a id="org0e56f14"></a>
+<a id="org19eb0d1"></a>
 
 # Getting Started
 
 
-<a id="org18f59be"></a>
+<a id="orgde6fbdb"></a>
 
 ## Ribbon Menu and Quick Access Toolbar
 
 
-<a id="org831afbc"></a>
+<a id="orgeff153c"></a>
 
 ### Home
 
-Shows most commonly use actions
-Clipboard
-Font
-Text Alignment
-Number Formatting
-Cell Styles
-Cell Manipulation
-Cell Editing
+Shows most commonly use actions:
+
+-   Clipboard
+-   Font
+-   Text Alignment
+-   Number Formatting
+-   Cell Styles
+-   Cell Manipulation
+-   Cell Editing
 
 
-<a id="org481e7b8"></a>
+<a id="org2742145"></a>
 
 ### Insert - Add additional objects
 
-Tables
-Illustrations
-Charts
+-   Pivot Tables - Slice and dice your data to get insights
+-   Data Tables - Organize your data for easier formula maintenance, analysis
+-   Illustrations - Make your own Van Gogh
+-   Charts - Present your data for easier interpretation
 
 
-<a id="org188cf24"></a>
+<a id="orgd5f7746"></a>
 
 ### Page Layout
 
+Prepare your worksheet for printing
 
-<a id="org722158a"></a>
+
+<a id="org828c77c"></a>
 
 ### Formulas
 
+Get access to all the formulas and functions in Excel
 
-<a id="orgd3842d8"></a>
+
+<a id="org9ac4cae"></a>
 
 ### Data
 
+-   Import and Export data into or out of Excel
+-   Advanced Sort and Filter
+-   Data Tools: Manipulate data by splitting, removing duplicates, flash fill, or validate data entry.
+-   Forcasting
 
-<a id="org3d7b4cb"></a>
+
+<a id="org2ef9602"></a>
 
 ### Review
 
+-   Check Spelling and Grammar
+-   Get suggestions on how to improve your workbook if calculations are taking a long time.
+-   Group and Ungroup rows and columns - Use this instead of Hide and Unhide; it make your intent more clear.
 
-<a id="org2b6695c"></a>
+
+<a id="org0a1e1c0"></a>
 
 ### Help
 
+-   Use the F1 key to get help
+-   Use the search option to find useful actions
+-   Check Accessibility: Adding alt text to images and formatting is readable for all viewers.
+-   Hover over a menu item and click &ldquo;Tell me more&rdquo;
 
-<a id="orgf20c841"></a>
+
+<a id="orgbcd2883"></a>
 
 ## Shortcut menus and mini toolbar
 
 
-<a id="org08ed975"></a>
+<a id="org8b4c96e"></a>
 
 ### Cells and Texts in Cells
 
-Use ALT + ENTER to create a
-line break in a cell
+Use ALT + ENTER to create a hard line break in a cell
 
 
-<a id="org7f27ea3"></a>
+<a id="org9f5df8a"></a>
 
 ### Workbook and Worksheets
 
 1.  Rows and Columns
 
+    -   Rows are horizontal
+    -   Columns are vertical &ldquo;stacks&rdquo; of data.
+    -   Range: A contiguous (unbroken) area of rows and columns.
+
 2.  Cell Addresses
 
+    Cell A1 is the intersection of Column A and row 1
 
-<a id="org8aa4947"></a>
+
+<a id="org67de080"></a>
 
 ## Getting Help
 
 Stop and hover on icons to discover for keyboard shortcuts and more, see (font color)
 Use Search (for actions)
-Hit F1 or Help tab and search for found action to learn more
+Hit F1 or Help tab and search for an action to learn more
 
 
-<a id="org67503fb"></a>
+<a id="org10c35e2"></a>
 
 ## Accessibility
 
 See Review Tab / Check Accessibility
 
 
-<a id="orgeee5581"></a>
+<a id="org9d62c50"></a>
 
 # Data Entry
 
 
-<a id="org2b8f5fd"></a>
+<a id="org80d1983"></a>
 
 ## Entry and Autofill
 
-Modify Using Doubleclick, F2, or Overtype
-To Wrap or not to Wrap
+Typeover - You can destroy data in any cell by typing text or numbers with the when cell selected.
+Don&rsquo;t use SPACEBAR to clear data; use DELETE instead!
+DELETE - Deletes cell or selection data and doesn&rsquo;t enter a cell.
+BACKSPACE - Deletes data in selected cell and enters the cell to add data.
+F2 - Enter the cell to modify data
+ENTER - Finish entry and leave the cell. Always finish any cell edit with the ENTER key!
 
 
-<a id="org77945ec"></a>
+<a id="org3e56568"></a>
+
+### To Wrap Text or not to Wrap Text
+
+Use Wrap Text to control data spillover into other cells
+
+
+<a id="org42e428a"></a>
 
 ## Dates and Times
 
 Dates: stored as numbers starting from 1900 so =32 formatted as date looks like &ldquo;2/1/1900&rdquo;
 
 
-<a id="org89caed9"></a>
+<a id="org988088d"></a>
 
 ## Undo and Redo
 
@@ -179,44 +216,51 @@ CTRL+z
 CTRL+y
 
 
-<a id="org18e8935"></a>
+<a id="orgc03c7b4"></a>
 
 ## Save or Save As
 
 
-<a id="org745d1fa"></a>
+<a id="org7e94bcb"></a>
 
 # Formulas and Functions
 
 
-<a id="org578fb7d"></a>
+<a id="org9469ab5"></a>
 
 ## Simple Formulas
 
-()      :: grouping
-
-\+ \-    :** addition and subtraction
-
-\* /     :: multiplication and division
+()      :: grouping terms or calling a function
+\\+ -     :: addition and subtraction
+/ \*     :: division and multiplication
 ^ POWER :: exponentiation
 
 
-<a id="orgcb57a9c"></a>
+<a id="org8f25c31"></a>
 
 ## Copying formulas
 
+-   Relative references are modified
+-   Absolute references are not
+-   Examples:
+    = A1  - relative row, relative column
+    = A$1 - absolute row, relative column
+    = $A1 - relative row, absolute column
+    = $A$1 - absolute row, absolute column
+    NOTE: You don&rsquo;t have to type the $; use F4 to cycle thru the options
 
-<a id="org56c7386"></a>
+
+<a id="orgad5152b"></a>
 
 ## Modifying formulas
 
 
-<a id="org0967df0"></a>
+<a id="orgaa035b2"></a>
 
 ## Using SUM, AVERAGE, COUNT, COUNTA
 
 
-<a id="org195f465"></a>
+<a id="org1f6c0a1"></a>
 
 ## XLOOKUP, and other lookup functions
 
@@ -272,22 +316,22 @@ CTRL+y
 </table>
 
 
-<a id="orge18e5fc"></a>
+<a id="org4951c2b"></a>
 
 # Formatting
 
 
-<a id="orgf87f480"></a>
+<a id="org670d8a6"></a>
 
 ## Font styles, borders, and background colors
 
 
-<a id="org9a7264f"></a>
+<a id="org2328a2e"></a>
 
 ## Formatting numbers
 
 
-<a id="org7149f13"></a>
+<a id="org6e28bb4"></a>
 
 ## Worksheets
 
@@ -298,47 +342,47 @@ Moving: Copy, Cut, and Paste
 Find and Replace data
 
 
-<a id="org7097dc7"></a>
+<a id="orgeaec262"></a>
 
 # Preparing to print
 
 
-<a id="org401a4df"></a>
+<a id="orgc240b8c"></a>
 
 ## Page Layout
 
 
-<a id="org0114021"></a>
+<a id="orge38691b"></a>
 
 ## Print Setup and Page Break Preview
 
 
-<a id="org500b16c"></a>
+<a id="orgc469762"></a>
 
 # Charts
 
 
-<a id="orgdd104c6"></a>
+<a id="org8bf8ddd"></a>
 
 ## Creating
 
 
-<a id="org082d8bd"></a>
+<a id="org9718d32"></a>
 
 ## Chart Types
 
 
-<a id="orgd4875d5"></a>
+<a id="org7ebb534"></a>
 
 # Worksheet Views
 
 
-<a id="orga05daa1"></a>
+<a id="orgf9d106b"></a>
 
 ## Freezing and Unfreezing Panes
 
 
-<a id="orgffea8ca"></a>
+<a id="orge5d7758"></a>
 
 ## Split Screens
 
@@ -346,62 +390,62 @@ Horizontal
 Vertical
 
 
-<a id="orgc0530fe"></a>
+<a id="orga054e41"></a>
 
 ## Using Worksheets and Workbooks
 
 
-<a id="orga749989"></a>
+<a id="org188db8b"></a>
 
 ### Insert, Delete, and Rename
 
 
-<a id="org1523267"></a>
+<a id="orgdb8c223"></a>
 
 ### Move, Copy, and Group
 
 
-<a id="org65f4bc6"></a>
+<a id="org428c329"></a>
 
 ### Open, Close, and Save
 
 
-<a id="org230e6db"></a>
+<a id="orga5b3133"></a>
 
 # Data Management
 
 
-<a id="org4bbd684"></a>
+<a id="orgbde2286"></a>
 
 ## Sort
 
 
-<a id="orgca8ff1e"></a>
+<a id="org0d5bfe6"></a>
 
 ## Filter
 
 
-<a id="org3bdd367"></a>
+<a id="org8477cc5"></a>
 
 ## Make a Pivot Table
 
 
-<a id="orge941d3b"></a>
+<a id="org596b5d9"></a>
 
 # Security and Sharing
 
 
-<a id="org7864bd5"></a>
+<a id="org47f39f0"></a>
 
 ## Protect worksheets and workbooks
 
 
-<a id="orgb17f91b"></a>
+<a id="org3a55eb4"></a>
 
 ## Share and Track changes
 
 
-<a id="org31392c3"></a>
+<a id="org7260e8e"></a>
 
 # Common Actions Across Applications and Windows OS
 
@@ -493,11 +537,17 @@ Vertical
 <td class="org-left">Switch App Reverse</td>
 <td class="org-left">Switch between open applications in reverse</td>
 </tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
 </tbody>
 </table>
 
 
-<a id="org53c35d7"></a>
+<a id="org88da663"></a>
 
 # Modifiers for Movement and Selection
 
@@ -515,7 +565,7 @@ Vertical
 <tr>
 <td class="org-left"><b>Key</b></td>
 <td class="org-left"><b>Behavior</b></td>
-<td class="org-left">*Description</td>
+<td class="org-left"><b>Description</b></td>
 </tr>
 
 <tr>
